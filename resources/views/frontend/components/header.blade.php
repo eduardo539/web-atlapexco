@@ -28,11 +28,11 @@
                 Qué visitar
             </a>
 
-            <a href="#" class="relative transition-colors {{ request()->is('galeria') ? 'text-[#2D6656] after:absolute after:-bottom-1.5 after:left-0 after:w-full after:h-[2px] after:bg-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
+            <a href="{{ route('galeria.index') }}" class="relative transition-colors {{ request()->is('galeria') ? 'text-[#2D6656] after:absolute after:-bottom-1.5 after:left-0 after:w-full after:h-[2px] after:bg-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
                 Galería
             </a>
 
-            <a href="#" class="relative transition-colors {{ request()->is('contacto') ? 'text-[#2D6656] after:absolute after:-bottom-1.5 after:left-0 after:w-full after:h-[2px] after:bg-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
+            <a href="{{ route('contacto.index') }}" class="relative transition-colors {{ request()->is('contacto') ? 'text-[#2D6656] after:absolute after:-bottom-1.5 after:left-0 after:w-full after:h-[2px] after:bg-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
                 Contacto
             </a>
 
@@ -75,11 +75,11 @@
                 Qué visitar
             </a>
 
-            <a href="#" class="border-b border-[#ebdcca]/50 pb-3 transition-colors {{ request()->is('galeria') ? 'text-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
+            <a href="{{ route('galeria.index') }}" class="border-b border-[#ebdcca]/50 pb-3 transition-colors {{ request()->is('galeria') ? 'text-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
                 Galería
             </a>
 
-            <a href="#" class="pb-2 transition-colors {{ request()->is('contacto') ? 'text-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
+            <a href="{{ route('contacto.index') }}" class="pb-2 transition-colors {{ request()->is('contacto') ? 'text-[#2D6656]' : 'text-[#7A1E41] hover:text-[#2D6656]' }}">
                 Contacto
             </a>
 

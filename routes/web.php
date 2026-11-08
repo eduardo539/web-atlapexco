@@ -16,3 +16,13 @@ Route::get('/nuestra-cultura', function () {
 Route::get('/que-visitar', function () {
     return view('frontend.pages.que-visitar');
 })->name('que-visitar');
+
+
+Route::get('/galeria', function () {
+    return view('frontend.pages.galeria');
+})->name('galeria.index');
+
+
+Route::get('/contacto', function () {
+    return view('frontend.pages.contacto');
+})->name('contacto.index');
